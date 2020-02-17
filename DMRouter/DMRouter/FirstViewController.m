@@ -8,6 +8,8 @@
 
 #import "FirstViewController.h"
 #import "DMSASRouter.h"
+#import "RouterManager.h"
+
 @interface FirstViewController ()
 
 @end
@@ -43,12 +45,11 @@
 }
 #pragma mark 按钮事件
 - (void)pushEvent:(id)sender {
-   [[DMSASRouter sharedDMSASRouter] openURL:DMModule1(DMPPJIJinModule)  className:@"SecondViewController" options:@{@"NavTitle":@"第二个页"}];
-   
+    [RouterManager pushViewClassName:@"SecondViewController" options:@{@"NavTitle":@"第二个页"}];
 }
 - (void)presentEvent:(id)sender
 {
-     [[DMSASRouter sharedDMSASRouter] openURL:DMModule2(DMPPJIJinModule, DMRouterActionPresent) className:@"ThreeViewController" options:nil];
+    [RouterManager presentViewClassName:@"ThreeViewController" options:nil];
 }
 /*
 #pragma mark - Navigation

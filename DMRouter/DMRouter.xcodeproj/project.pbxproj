@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFB2AFB423FA3487009E23FA /* RouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB2AFB223FA3487009E23FA /* RouterManager.m */; };
 		EFC401172174466B00B6F728 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC401162174466B00B6F728 /* AppDelegate.m */; };
 		EFC4011F2174466C00B6F728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC4011E2174466C00B6F728 /* Assets.xcassets */; };
 		EFC401222174466C00B6F728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC401202174466C00B6F728 /* LaunchScreen.storyboard */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EFB2AFB223FA3487009E23FA /* RouterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterManager.m; sourceTree = "<group>"; };
+		EFB2AFB323FA3487009E23FA /* RouterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterManager.h; sourceTree = "<group>"; };
 		EFC401122174466B00B6F728 /* DMRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC401152174466B00B6F728 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFC401162174466B00B6F728 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -131,6 +134,8 @@
 				EFC4012E2174469800B6F728 /* DMPPJIJinModuleFactory.m */,
 				EFC401332174469800B6F728 /* NSObject+Cast.h */,
 				EFC4012F2174469800B6F728 /* NSObject+Cast.m */,
+				EFB2AFB323FA3487009E23FA /* RouterManager.h */,
+				EFB2AFB223FA3487009E23FA /* RouterManager.m */,
 				EFC4014121745E2300B6F728 /* DMRouterHeader.h */,
 			);
 			path = Router;
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB2AFB423FA3487009E23FA /* RouterManager.m in Sources */,
 				EFC4015C217460F800B6F728 /* DMNavigationController.m in Sources */,
 				EFC401552174608000B6F728 /* UIImage+XMUIImage.m in Sources */,
 				EFC401252174466C00B6F728 /* main.m in Sources */,

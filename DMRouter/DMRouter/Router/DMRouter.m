@@ -72,10 +72,10 @@ NSString* const DMModuleScheme        = @"module";
 + (void)present:(DMBaseViewController*)controller animated:(BOOL)animated {
     UIWindow   *window  = [UIApplication sharedApplication].delegate.window;
     DMBaseViewController *rootViewController = (DMBaseViewController *)window.rootViewController;
+    rootViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     if (rootViewController) {
         [rootViewController presentViewController:controller animated:animated completion:nil];
     } else {
-
         NSLog(@"rootViewController is nil");
     }
 }
