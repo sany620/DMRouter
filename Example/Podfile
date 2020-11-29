@@ -2,7 +2,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'DMRouterDemo' do
-  pod 'DMRouter', :path => '../'
+  pod 'DMRouter'
   
 
 end
