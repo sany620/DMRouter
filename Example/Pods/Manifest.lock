@@ -1,0 +1,16 @@
+PODS:
+  - DMRouter (1.0.0)
+
+DEPENDENCIES:
+  - DMRouter
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - DMRouter
+
+SPEC CHECKSUMS:
+  DMRouter: 7f0c3deca6ddd4cdc75495772dd9f484e124c36d
+
+PODFILE CHECKSUM: 0bf09e8a1635a84b5a289b43b8e3f58114a7acd8
+
+COCOAPODS: 1.10.0

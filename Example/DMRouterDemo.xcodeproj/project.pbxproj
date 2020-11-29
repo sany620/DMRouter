@@ -7,19 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF249AE62573D1A6005D2B8C /* DMRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249AC82573D1A6005D2B8C /* DMRouter.m */; };
-		EF249AE72573D1A6005D2B8C /* DMPPJIJinModuleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249AC92573D1A6005D2B8C /* DMPPJIJinModuleFactory.m */; };
-		EF249AE82573D1A6005D2B8C /* NSObject+Cast.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249ACA2573D1A6005D2B8C /* NSObject+Cast.m */; };
-		EF249AE92573D1A6005D2B8C /* DMSASRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249ACC2573D1A6005D2B8C /* DMSASRouter.m */; };
-		EF249AEA2573D1A6005D2B8C /* UIImage+XMUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249ACF2573D1A6005D2B8C /* UIImage+XMUIImage.m */; };
-		EF249AEB2573D1A6005D2B8C /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249AD12573D1A6005D2B8C /* UIView+Frame.m */; };
-		EF249AEC2573D1A6005D2B8C /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249AD22573D1A6005D2B8C /* UIView+YYAdd.m */; };
-		EF249AED2573D1A6005D2B8C /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249AD32573D1A6005D2B8C /* UIColor+Extend.m */; };
-		EF249AEE2573D1A6005D2B8C /* UIButton+DuanMu.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249AD42573D1A6005D2B8C /* UIButton+DuanMu.m */; };
-		EF249AEF2573D1A6005D2B8C /* UIBarButtonItem+Items.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249AD62573D1A6005D2B8C /* UIBarButtonItem+Items.m */; };
-		EF249AF02573D1A6005D2B8C /* DMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249AE12573D1A6005D2B8C /* DMNavigationController.m */; };
-		EF249AF12573D1A6005D2B8C /* DMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249AE22573D1A6005D2B8C /* DMBaseViewController.m */; };
-		EF249AF22573D1A6005D2B8C /* RouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249AE32573D1A6005D2B8C /* RouterManager.m */; };
+		D0A1DC236C6AEEC4C4C3D67A /* libPods-DMRouterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5557FCF4999A089D29E54450 /* libPods-DMRouterDemo.a */; };
 		EFC401172174466B00B6F728 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC401162174466B00B6F728 /* AppDelegate.m */; };
 		EFC4011F2174466C00B6F728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC4011E2174466C00B6F728 /* Assets.xcassets */; };
 		EFC401222174466C00B6F728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC401202174466C00B6F728 /* LaunchScreen.storyboard */; };
@@ -30,35 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF249AC52573D1A6005D2B8C /* RouterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterManager.h; sourceTree = "<group>"; };
-		EF249AC62573D1A6005D2B8C /* DMSASRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSASRouter.h; sourceTree = "<group>"; };
-		EF249AC72573D1A6005D2B8C /* DMRouterHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMRouterHeader.h; sourceTree = "<group>"; };
-		EF249AC82573D1A6005D2B8C /* DMRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMRouter.m; sourceTree = "<group>"; };
-		EF249AC92573D1A6005D2B8C /* DMPPJIJinModuleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPPJIJinModuleFactory.m; sourceTree = "<group>"; };
-		EF249ACA2573D1A6005D2B8C /* NSObject+Cast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Cast.m"; sourceTree = "<group>"; };
-		EF249ACB2573D1A6005D2B8C /* DMRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMRouter.h; sourceTree = "<group>"; };
-		EF249ACC2573D1A6005D2B8C /* DMSASRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSASRouter.m; sourceTree = "<group>"; };
-		EF249ACF2573D1A6005D2B8C /* UIImage+XMUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XMUIImage.m"; sourceTree = "<group>"; };
-		EF249AD02573D1A6005D2B8C /* UIBarButtonItem+Items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Items.h"; sourceTree = "<group>"; };
-		EF249AD12573D1A6005D2B8C /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		EF249AD22573D1A6005D2B8C /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
-		EF249AD32573D1A6005D2B8C /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
-		EF249AD42573D1A6005D2B8C /* UIButton+DuanMu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DuanMu.m"; sourceTree = "<group>"; };
-		EF249AD52573D1A6005D2B8C /* YYCategoriesMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCategoriesMacro.h; sourceTree = "<group>"; };
-		EF249AD62573D1A6005D2B8C /* UIBarButtonItem+Items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Items.m"; sourceTree = "<group>"; };
-		EF249AD72573D1A6005D2B8C /* UIImage+XMUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XMUIImage.h"; sourceTree = "<group>"; };
-		EF249AD82573D1A6005D2B8C /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		EF249AD92573D1A6005D2B8C /* UIButton+DuanMu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DuanMu.h"; sourceTree = "<group>"; };
-		EF249ADA2573D1A6005D2B8C /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
-		EF249ADB2573D1A6005D2B8C /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
-		EF249ADF2573D1A6005D2B8C /* DMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNavigationController.h; sourceTree = "<group>"; };
-		EF249AE02573D1A6005D2B8C /* DMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBaseViewController.h; sourceTree = "<group>"; };
-		EF249AE12573D1A6005D2B8C /* DMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNavigationController.m; sourceTree = "<group>"; };
-		EF249AE22573D1A6005D2B8C /* DMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBaseViewController.m; sourceTree = "<group>"; };
-		EF249AE32573D1A6005D2B8C /* RouterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterManager.m; sourceTree = "<group>"; };
-		EF249AE42573D1A6005D2B8C /* DMPPJIJinModuleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPPJIJinModuleFactory.h; sourceTree = "<group>"; };
-		EF249AE52573D1A6005D2B8C /* NSObject+Cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Cast.h"; sourceTree = "<group>"; };
-		EF249AF42573E1FE005D2B8C /* RouterResultState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterResultState.h; sourceTree = "<group>"; };
+		5557FCF4999A089D29E54450 /* libPods-DMRouterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMRouterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92867EBADE1A0C751CD62A5 /* Pods-DMRouterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMRouterDemo.release.xcconfig"; path = "Target Support Files/Pods-DMRouterDemo/Pods-DMRouterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		EFC401122174466B00B6F728 /* DMRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC401152174466B00B6F728 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFC401162174466B00B6F728 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +33,7 @@
 		EFC401612174665300B6F728 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		EFC4016321747F2B00B6F728 /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
 		EFC4016421747F2B00B6F728 /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		F5E50FD5E602C5ED9333BE42 /* Pods-DMRouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMRouterDemo.debug.xcconfig"; path = "Target Support Files/Pods-DMRouterDemo/Pods-DMRouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,79 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A1DC236C6AEEC4C4C3D67A /* libPods-DMRouterDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF249AC32573D1A6005D2B8C /* DMRouter */ = {
+		8B5ED6CA7E87059253CB3B68 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EF249AC42573D1A6005D2B8C /* Classes */,
+				F5E50FD5E602C5ED9333BE42 /* Pods-DMRouterDemo.debug.xcconfig */,
+				D92867EBADE1A0C751CD62A5 /* Pods-DMRouterDemo.release.xcconfig */,
 			);
-			name = DMRouter;
-			path = ../../DMRouter;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		EF249AC42573D1A6005D2B8C /* Classes */ = {
+		CAEEC7F8F8D04E78D746A53B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EF249ACD2573D1A6005D2B8C /* Common */,
-				EF249AE42573D1A6005D2B8C /* DMPPJIJinModuleFactory.h */,
-				EF249AC92573D1A6005D2B8C /* DMPPJIJinModuleFactory.m */,
-				EF249ACB2573D1A6005D2B8C /* DMRouter.h */,
-				EF249AC82573D1A6005D2B8C /* DMRouter.m */,
-				EF249AC72573D1A6005D2B8C /* DMRouterHeader.h */,
-				EF249AC62573D1A6005D2B8C /* DMSASRouter.h */,
-				EF249ACC2573D1A6005D2B8C /* DMSASRouter.m */,
-				EF249AE52573D1A6005D2B8C /* NSObject+Cast.h */,
-				EF249ACA2573D1A6005D2B8C /* NSObject+Cast.m */,
-				EF249AC52573D1A6005D2B8C /* RouterManager.h */,
-				EF249AE32573D1A6005D2B8C /* RouterManager.m */,
-				EF249AF42573E1FE005D2B8C /* RouterResultState.h */,
+				5557FCF4999A089D29E54450 /* libPods-DMRouterDemo.a */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		EF249ACD2573D1A6005D2B8C /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				EF249ACE2573D1A6005D2B8C /* Category */,
-				EF249ADE2573D1A6005D2B8C /* BaseUI */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		EF249ACE2573D1A6005D2B8C /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				EF249AD02573D1A6005D2B8C /* UIBarButtonItem+Items.h */,
-				EF249AD62573D1A6005D2B8C /* UIBarButtonItem+Items.m */,
-				EF249AD92573D1A6005D2B8C /* UIButton+DuanMu.h */,
-				EF249AD42573D1A6005D2B8C /* UIButton+DuanMu.m */,
-				EF249ADA2573D1A6005D2B8C /* UIColor+Extend.h */,
-				EF249AD32573D1A6005D2B8C /* UIColor+Extend.m */,
-				EF249AD72573D1A6005D2B8C /* UIImage+XMUIImage.h */,
-				EF249ACF2573D1A6005D2B8C /* UIImage+XMUIImage.m */,
-				EF249AD82573D1A6005D2B8C /* UIView+Frame.h */,
-				EF249AD12573D1A6005D2B8C /* UIView+Frame.m */,
-				EF249ADB2573D1A6005D2B8C /* UIView+YYAdd.h */,
-				EF249AD22573D1A6005D2B8C /* UIView+YYAdd.m */,
-				EF249AD52573D1A6005D2B8C /* YYCategoriesMacro.h */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		EF249ADE2573D1A6005D2B8C /* BaseUI */ = {
-			isa = PBXGroup;
-			children = (
-				EF249ADF2573D1A6005D2B8C /* DMNavigationController.h */,
-				EF249AE02573D1A6005D2B8C /* DMBaseViewController.h */,
-				EF249AE12573D1A6005D2B8C /* DMNavigationController.m */,
-				EF249AE22573D1A6005D2B8C /* DMBaseViewController.m */,
-			);
-			path = BaseUI;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		EFC401092174466B00B6F728 = {
@@ -159,6 +71,8 @@
 			children = (
 				EFC401142174466B00B6F728 /* DMRouterDemo */,
 				EFC401132174466B00B6F728 /* Products */,
+				8B5ED6CA7E87059253CB3B68 /* Pods */,
+				CAEEC7F8F8D04E78D746A53B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,7 +87,6 @@
 		EFC401142174466B00B6F728 /* DMRouterDemo */ = {
 			isa = PBXGroup;
 			children = (
-				EF249AC32573D1A6005D2B8C /* DMRouter */,
 				EFC401152174466B00B6F728 /* AppDelegate.h */,
 				EFC401162174466B00B6F728 /* AppDelegate.m */,
 				EFC401602174665300B6F728 /* FirstViewController.h */,
@@ -197,6 +110,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFC401282174466C00B6F728 /* Build configuration list for PBXNativeTarget "DMRouterDemo" */;
 			buildPhases = (
+				52ACAAE7DFF1034C6D7FF551 /* [CP] Check Pods Manifest.lock */,
 				EFC4010E2174466B00B6F728 /* Sources */,
 				EFC4010F2174466B00B6F728 /* Frameworks */,
 				EFC401102174466B00B6F728 /* Resources */,
@@ -254,29 +168,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52ACAAE7DFF1034C6D7FF551 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DMRouterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EFC4010E2174466B00B6F728 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF249AF22573D1A6005D2B8C /* RouterManager.m in Sources */,
-				EF249AEA2573D1A6005D2B8C /* UIImage+XMUIImage.m in Sources */,
-				EF249AE82573D1A6005D2B8C /* NSObject+Cast.m in Sources */,
-				EF249AE72573D1A6005D2B8C /* DMPPJIJinModuleFactory.m in Sources */,
 				EFC401252174466C00B6F728 /* main.m in Sources */,
-				EF249AE62573D1A6005D2B8C /* DMRouter.m in Sources */,
-				EF249AEE2573D1A6005D2B8C /* UIButton+DuanMu.m in Sources */,
-				EF249AEF2573D1A6005D2B8C /* UIBarButtonItem+Items.m in Sources */,
 				EFC401172174466B00B6F728 /* AppDelegate.m in Sources */,
-				EF249AF02573D1A6005D2B8C /* DMNavigationController.m in Sources */,
 				EFC4016521747F2B00B6F728 /* ThreeViewController.m in Sources */,
 				EFC401622174665300B6F728 /* FirstViewController.m in Sources */,
-				EF249AEC2573D1A6005D2B8C /* UIView+YYAdd.m in Sources */,
-				EF249AE92573D1A6005D2B8C /* DMSASRouter.m in Sources */,
 				EFC4015F217462C400B6F728 /* SecondViewController.m in Sources */,
-				EF249AF12573D1A6005D2B8C /* DMBaseViewController.m in Sources */,
-				EF249AEB2573D1A6005D2B8C /* UIView+Frame.m in Sources */,
-				EF249AED2573D1A6005D2B8C /* UIColor+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +334,7 @@
 		};
 		EFC401292174466C00B6F728 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E50FD5E602C5ED9333BE42 /* Pods-DMRouterDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -425,6 +352,7 @@
 		};
 		EFC4012A2174466C00B6F728 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D92867EBADE1A0C751CD62A5 /* Pods-DMRouterDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
