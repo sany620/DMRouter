@@ -83,24 +83,21 @@ NSString* const DMModuleScheme        = @"module";
 + (void)dismiss:(UIViewController*)controller animated:(BOOL)animated {
 }
 
-- (DMBaseViewController*)viewControllerForURL:(NSURL*)url  classname:(NSString *)classname  options:(DMRouterOptions*)options {
-
+- (DMBaseViewController*)viewControllerForURL:(NSURL*)url classname:(NSString *)classname options:(DMRouterOptions*)options completion:(__nullable RouterHandleCallBack)completion{
     NSString*scheme = url.scheme;
     if (![scheme isEqualToString:DMModuleScheme]) {
         return nil;
     }
-
     NSString *moduleName = url.host;
     NSString *factoryClassName =  [NSString stringWithFormat:@"%@Factory",moduleName];
-    Class     factoryClass     = NSClassFromString(factoryClassName);
+    Class factoryClass = NSClassFromString(factoryClassName);
     if (!factoryClass) {
         NSLog(@"类: %@不存在",factoryClassName);
         return nil;
     }
-
-    SEL selector = NSSelectorFromString(@"viewControllerWithClass:WithOptions:");
+    SEL selector = NSSelectorFromString(@"viewControllerWithClass:withOptions:");
     if (!selector) {
-        NSLog(@"方法: viewControllerWithClass:WithOptions:不存在");
+        NSLog(@"方法: viewControllerWithClass:withOptions:不存在");
         return nil;
     }
 
@@ -108,19 +105,30 @@ NSString* const DMModuleScheme        = @"module";
         #pragma clang diagnostic push
         #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
         DMBaseViewController*controller = [[factoryClass class] performSelector:selector withObject:classname withObject:options];
+        if (completion) {
+            controller.callBlock = completion;
+        }
         #pragma clang diagnostic pop
         return controller;
     } else {
-        NSLog(@"%@ 未实现+ (TaurusBaseViewController*)viewControllerWithClass:(NSString *)className   WithOptions:(NSDictionary*)options 方法", factoryClass);
+        NSLog(@"%@ 未实现+ (DMBaseViewController*)viewControllerWithClass:(NSString *)className withOptions:(NSDictionary*)options 方法", factoryClass);
     }
     return nil;
 }
 
-- (void)openURL:(NSURL*)url  className:(NSString *)classname options:(DMRouterOptions*)options;{
+- (DMBaseViewController*)viewControllerForURL:(NSURL*)url classname:(NSString *)classname options:(DMRouterOptions*)options {
+    return [self viewControllerForURL:url classname:classname options:options completion:nil];
+}
+
+- (void)openURL:(NSURL*)url  className:(NSString *)classname options:(DMRouterOptions*)options{
+    [self openURL:url className:classname options:options completion:nil];
+}
+
+- (void)openURL:(NSURL*)url  className:(NSString *)classname options:(DMRouterOptions*)options completion:(__nullable RouterHandleCallBack)completion{
     NSString*scheme = url.scheme;
     if ([scheme isEqualToString:DMModuleScheme]) {
-        DMBaseViewController*controller = (DMBaseViewController *) [self viewControllerForURL:url  classname:classname  options:options];
-        NSString  *action     = url.path;
+        DMBaseViewController*controller = (DMBaseViewController *) [self viewControllerForURL:url classname:classname options:options completion:completion];
+        NSString  *action = url.path;
         if ([action isEqualToString:@"/push"]) {
             [[self class] push:controller animated:YES];
         } else if ([action isEqualToString:@"/present"]) {
@@ -132,5 +140,4 @@ NSString* const DMModuleScheme        = @"module";
         [[UIApplication sharedApplication] openURL:url];
     }
 }
-
 @end

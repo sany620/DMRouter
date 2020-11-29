@@ -7,8 +7,7 @@
 //
 
 #import "FirstViewController.h"
-#import "DMSASRouter.h"
-#import "RouterManager.h"
+#import "DMRouterHeader.h"
 
 @interface FirstViewController ()
 
@@ -45,7 +44,9 @@
 }
 #pragma mark 按钮事件
 - (void)pushEvent:(id)sender {
-    [RouterManager pushViewClassName:@"SecondViewController" options:@{@"NavTitle":@"第二个页"}];
+    [RouterManager pushViewClassName:@"SecondViewController" options:@{@"NavTitle":@"第二个页"} completion:^(id result) {
+        
+    }];
 }
 - (void)presentEvent:(id)sender
 {

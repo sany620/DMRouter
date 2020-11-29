@@ -23,11 +23,6 @@ extern NSString* const DMModuleScheme;
 #define DMModule2(module, action)  ( [NSURL URLWithString:[NSString stringWithFormat:@"%@://%@/%@",DMModuleScheme,module,action]] )
 
 
-
-
-
-typedef NSDictionary<NSString*, id> DMRouterOptions;
-
 @interface DMRouter : NSObject
 
 /**
@@ -70,4 +65,7 @@ typedef NSDictionary<NSString*, id> DMRouterOptions;
    @endcode
  */
 - (void)openURL:(NSURL*)url  className:(NSString *)classname options:(DMRouterOptions*)options;
+
+- (void)openURL:(NSURL*)url  className:(NSString *)classname options:(DMRouterOptions*)options completion:(__nullable RouterHandleCallBack)completion;
+
 @end

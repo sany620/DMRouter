@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		EFB2AFB423FA3487009E23FA /* RouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB2AFB223FA3487009E23FA /* RouterManager.m */; };
+		EFBD7E502573676200B67527 /* UIImage+XMUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD7E3E2573676200B67527 /* UIImage+XMUIImage.m */; };
+		EFBD7E512573676200B67527 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD7E402573676200B67527 /* UIView+Frame.m */; };
+		EFBD7E522573676200B67527 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD7E412573676200B67527 /* UIView+YYAdd.m */; };
+		EFBD7E532573676200B67527 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD7E422573676200B67527 /* UIColor+Extend.m */; };
+		EFBD7E542573676200B67527 /* UIButton+DuanMu.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD7E432573676200B67527 /* UIButton+DuanMu.m */; };
+		EFBD7E552573676200B67527 /* UIBarButtonItem+Items.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD7E452573676200B67527 /* UIBarButtonItem+Items.m */; };
+		EFBD7E562573676200B67527 /* DMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD7E4E2573676200B67527 /* DMNavigationController.m */; };
+		EFBD7E572573676200B67527 /* DMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD7E4F2573676200B67527 /* DMBaseViewController.m */; };
 		EFC401172174466B00B6F728 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC401162174466B00B6F728 /* AppDelegate.m */; };
 		EFC4011F2174466C00B6F728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC4011E2174466C00B6F728 /* Assets.xcassets */; };
 		EFC401222174466C00B6F728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC401202174466C00B6F728 /* LaunchScreen.storyboard */; };
@@ -16,14 +24,6 @@
 		EFC401352174469800B6F728 /* DMPPJIJinModuleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC4012E2174469800B6F728 /* DMPPJIJinModuleFactory.m */; };
 		EFC401362174469800B6F728 /* NSObject+Cast.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC4012F2174469800B6F728 /* NSObject+Cast.m */; };
 		EFC401372174469800B6F728 /* DMSASRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC401312174469800B6F728 /* DMSASRouter.m */; };
-		EFC4014521745F4600B6F728 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC4014321745F4600B6F728 /* UIView+YYAdd.m */; };
-		EFC4014921745FD500B6F728 /* UIBarButtonItem+Items.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC4014821745FD500B6F728 /* UIBarButtonItem+Items.m */; };
-		EFC4014C21745FFB00B6F728 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC4014B21745FFB00B6F728 /* UIColor+Extend.m */; };
-		EFC4014F2174602100B6F728 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC4014D2174602100B6F728 /* UIView+Frame.m */; };
-		EFC401522174603F00B6F728 /* UIButton+DuanMu.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC401502174603F00B6F728 /* UIButton+DuanMu.m */; };
-		EFC401552174608000B6F728 /* UIImage+XMUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC401542174608000B6F728 /* UIImage+XMUIImage.m */; };
-		EFC4015B217460F800B6F728 /* DMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC40157217460F800B6F728 /* DMBaseViewController.m */; };
-		EFC4015C217460F800B6F728 /* DMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC40158217460F800B6F728 /* DMNavigationController.m */; };
 		EFC4015F217462C400B6F728 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC4015E217462C400B6F728 /* SecondViewController.m */; };
 		EFC401622174665300B6F728 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC401612174665300B6F728 /* FirstViewController.m */; };
 		EFC4016521747F2B00B6F728 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC4016421747F2B00B6F728 /* ThreeViewController.m */; };
@@ -32,6 +32,24 @@
 /* Begin PBXFileReference section */
 		EFB2AFB223FA3487009E23FA /* RouterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterManager.m; sourceTree = "<group>"; };
 		EFB2AFB323FA3487009E23FA /* RouterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterManager.h; sourceTree = "<group>"; };
+		EFBD7E3E2573676200B67527 /* UIImage+XMUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XMUIImage.m"; sourceTree = "<group>"; };
+		EFBD7E3F2573676200B67527 /* UIBarButtonItem+Items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Items.h"; sourceTree = "<group>"; };
+		EFBD7E402573676200B67527 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		EFBD7E412573676200B67527 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		EFBD7E422573676200B67527 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		EFBD7E432573676200B67527 /* UIButton+DuanMu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DuanMu.m"; sourceTree = "<group>"; };
+		EFBD7E442573676200B67527 /* YYCategoriesMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCategoriesMacro.h; sourceTree = "<group>"; };
+		EFBD7E452573676200B67527 /* UIBarButtonItem+Items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Items.m"; sourceTree = "<group>"; };
+		EFBD7E462573676200B67527 /* UIImage+XMUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XMUIImage.h"; sourceTree = "<group>"; };
+		EFBD7E472573676200B67527 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		EFBD7E482573676200B67527 /* UIButton+DuanMu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DuanMu.h"; sourceTree = "<group>"; };
+		EFBD7E492573676200B67527 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		EFBD7E4A2573676200B67527 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		EFBD7E4C2573676200B67527 /* DMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNavigationController.h; sourceTree = "<group>"; };
+		EFBD7E4D2573676200B67527 /* DMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBaseViewController.h; sourceTree = "<group>"; };
+		EFBD7E4E2573676200B67527 /* DMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNavigationController.m; sourceTree = "<group>"; };
+		EFBD7E4F2573676200B67527 /* DMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBaseViewController.m; sourceTree = "<group>"; };
+		EFBD7E5B257367A900B67527 /* DMToolsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMToolsMacros.h; sourceTree = "<group>"; };
 		EFC401122174466B00B6F728 /* DMRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC401152174466B00B6F728 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFC401162174466B00B6F728 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,25 +65,7 @@
 		EFC401312174469800B6F728 /* DMSASRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSASRouter.m; sourceTree = "<group>"; };
 		EFC401322174469800B6F728 /* DMPPJIJinModuleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPPJIJinModuleFactory.h; sourceTree = "<group>"; };
 		EFC401332174469800B6F728 /* NSObject+Cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Cast.h"; sourceTree = "<group>"; };
-		EFC4013C2174479700B6F728 /* DMToolsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMToolsMacros.h; sourceTree = "<group>"; };
 		EFC4014121745E2300B6F728 /* DMRouterHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRouterHeader.h; sourceTree = "<group>"; };
-		EFC4014321745F4600B6F728 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
-		EFC4014421745F4600B6F728 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
-		EFC4014621745F8E00B6F728 /* YYCategoriesMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCategoriesMacro.h; sourceTree = "<group>"; };
-		EFC4014721745FD500B6F728 /* UIBarButtonItem+Items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Items.h"; sourceTree = "<group>"; };
-		EFC4014821745FD500B6F728 /* UIBarButtonItem+Items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Items.m"; sourceTree = "<group>"; };
-		EFC4014A21745FFB00B6F728 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
-		EFC4014B21745FFB00B6F728 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
-		EFC4014D2174602100B6F728 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		EFC4014E2174602100B6F728 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		EFC401502174603F00B6F728 /* UIButton+DuanMu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DuanMu.m"; sourceTree = "<group>"; };
-		EFC401512174603F00B6F728 /* UIButton+DuanMu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DuanMu.h"; sourceTree = "<group>"; };
-		EFC401532174608000B6F728 /* UIImage+XMUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XMUIImage.h"; sourceTree = "<group>"; };
-		EFC401542174608000B6F728 /* UIImage+XMUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XMUIImage.m"; sourceTree = "<group>"; };
-		EFC40157217460F800B6F728 /* DMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBaseViewController.m; sourceTree = "<group>"; };
-		EFC40158217460F800B6F728 /* DMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNavigationController.m; sourceTree = "<group>"; };
-		EFC40159217460F800B6F728 /* DMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBaseViewController.h; sourceTree = "<group>"; };
-		EFC4015A217460F800B6F728 /* DMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNavigationController.h; sourceTree = "<group>"; };
 		EFC4015D217462C400B6F728 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		EFC4015E217462C400B6F728 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		EFC401602174665300B6F728 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -85,6 +85,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EFBD7E3C2573676200B67527 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EFBD7E5A257367A900B67527 /* Macro */,
+				EFBD7E3D2573676200B67527 /* Category */,
+				EFBD7E4B2573676200B67527 /* BaseUI */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EFBD7E3D2573676200B67527 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EFBD7E3E2573676200B67527 /* UIImage+XMUIImage.m */,
+				EFBD7E3F2573676200B67527 /* UIBarButtonItem+Items.h */,
+				EFBD7E402573676200B67527 /* UIView+Frame.m */,
+				EFBD7E412573676200B67527 /* UIView+YYAdd.m */,
+				EFBD7E422573676200B67527 /* UIColor+Extend.m */,
+				EFBD7E432573676200B67527 /* UIButton+DuanMu.m */,
+				EFBD7E442573676200B67527 /* YYCategoriesMacro.h */,
+				EFBD7E452573676200B67527 /* UIBarButtonItem+Items.m */,
+				EFBD7E462573676200B67527 /* UIImage+XMUIImage.h */,
+				EFBD7E472573676200B67527 /* UIView+Frame.h */,
+				EFBD7E482573676200B67527 /* UIButton+DuanMu.h */,
+				EFBD7E492573676200B67527 /* UIColor+Extend.h */,
+				EFBD7E4A2573676200B67527 /* UIView+YYAdd.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EFBD7E4B2573676200B67527 /* BaseUI */ = {
+			isa = PBXGroup;
+			children = (
+				EFBD7E4C2573676200B67527 /* DMNavigationController.h */,
+				EFBD7E4D2573676200B67527 /* DMBaseViewController.h */,
+				EFBD7E4E2573676200B67527 /* DMNavigationController.m */,
+				EFBD7E4F2573676200B67527 /* DMBaseViewController.m */,
+			);
+			path = BaseUI;
+			sourceTree = "<group>";
+		};
+		EFBD7E5A257367A900B67527 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				EFBD7E5B257367A900B67527 /* DMToolsMacros.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
 		EFC401092174466B00B6F728 = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +153,6 @@
 		EFC401142174466B00B6F728 /* DMRouter */ = {
 			isa = PBXGroup;
 			children = (
-				EFC4013D21745D2C00B6F728 /* Common */,
-				EFC4013B2174479700B6F728 /* Macro */,
 				EFC4012B2174469800B6F728 /* Router */,
 				EFC401152174466B00B6F728 /* AppDelegate.h */,
 				EFC401162174466B00B6F728 /* AppDelegate.m */,
@@ -126,6 +173,7 @@
 		EFC4012B2174469800B6F728 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				EFBD7E3C2573676200B67527 /* Common */,
 				EFC4012C2174469800B6F728 /* DMSASRouter.h */,
 				EFC401312174469800B6F728 /* DMSASRouter.m */,
 				EFC401302174469800B6F728 /* DMRouter.h */,
@@ -139,54 +187,6 @@
 				EFC4014121745E2300B6F728 /* DMRouterHeader.h */,
 			);
 			path = Router;
-			sourceTree = "<group>";
-		};
-		EFC4013B2174479700B6F728 /* Macro */ = {
-			isa = PBXGroup;
-			children = (
-				EFC4013C2174479700B6F728 /* DMToolsMacros.h */,
-			);
-			path = Macro;
-			sourceTree = "<group>";
-		};
-		EFC4013D21745D2C00B6F728 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				EFC40156217460F800B6F728 /* BaseUI */,
-				EFC4014221745F4600B6F728 /* Category */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		EFC4014221745F4600B6F728 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				EFC401532174608000B6F728 /* UIImage+XMUIImage.h */,
-				EFC401542174608000B6F728 /* UIImage+XMUIImage.m */,
-				EFC401512174603F00B6F728 /* UIButton+DuanMu.h */,
-				EFC401502174603F00B6F728 /* UIButton+DuanMu.m */,
-				EFC4014E2174602100B6F728 /* UIView+Frame.h */,
-				EFC4014D2174602100B6F728 /* UIView+Frame.m */,
-				EFC4014A21745FFB00B6F728 /* UIColor+Extend.h */,
-				EFC4014B21745FFB00B6F728 /* UIColor+Extend.m */,
-				EFC4014721745FD500B6F728 /* UIBarButtonItem+Items.h */,
-				EFC4014821745FD500B6F728 /* UIBarButtonItem+Items.m */,
-				EFC4014621745F8E00B6F728 /* YYCategoriesMacro.h */,
-				EFC4014321745F4600B6F728 /* UIView+YYAdd.m */,
-				EFC4014421745F4600B6F728 /* UIView+YYAdd.h */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		EFC40156217460F800B6F728 /* BaseUI */ = {
-			isa = PBXGroup;
-			children = (
-				EFC40159217460F800B6F728 /* DMBaseViewController.h */,
-				EFC40157217460F800B6F728 /* DMBaseViewController.m */,
-				EFC4015A217460F800B6F728 /* DMNavigationController.h */,
-				EFC40158217460F800B6F728 /* DMNavigationController.m */,
-			);
-			path = BaseUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,23 +259,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFB2AFB423FA3487009E23FA /* RouterManager.m in Sources */,
-				EFC4015C217460F800B6F728 /* DMNavigationController.m in Sources */,
-				EFC401552174608000B6F728 /* UIImage+XMUIImage.m in Sources */,
+				EFBD7E562573676200B67527 /* DMNavigationController.m in Sources */,
 				EFC401252174466C00B6F728 /* main.m in Sources */,
 				EFC401172174466B00B6F728 /* AppDelegate.m in Sources */,
-				EFC401522174603F00B6F728 /* UIButton+DuanMu.m in Sources */,
-				EFC4014F2174602100B6F728 /* UIView+Frame.m in Sources */,
-				EFC4015B217460F800B6F728 /* DMBaseViewController.m in Sources */,
+				EFBD7E542573676200B67527 /* UIButton+DuanMu.m in Sources */,
+				EFBD7E522573676200B67527 /* UIView+YYAdd.m in Sources */,
+				EFBD7E512573676200B67527 /* UIView+Frame.m in Sources */,
+				EFBD7E502573676200B67527 /* UIImage+XMUIImage.m in Sources */,
 				EFC401342174469800B6F728 /* DMRouter.m in Sources */,
 				EFC401362174469800B6F728 /* NSObject+Cast.m in Sources */,
-				EFC4014C21745FFB00B6F728 /* UIColor+Extend.m in Sources */,
+				EFBD7E572573676200B67527 /* DMBaseViewController.m in Sources */,
 				EFC4016521747F2B00B6F728 /* ThreeViewController.m in Sources */,
-				EFC4014921745FD500B6F728 /* UIBarButtonItem+Items.m in Sources */,
 				EFC401622174665300B6F728 /* FirstViewController.m in Sources */,
 				EFC4015F217462C400B6F728 /* SecondViewController.m in Sources */,
 				EFC401352174469800B6F728 /* DMPPJIJinModuleFactory.m in Sources */,
-				EFC4014521745F4600B6F728 /* UIView+YYAdd.m in Sources */,
+				EFBD7E552573676200B67527 /* UIBarButtonItem+Items.m in Sources */,
 				EFC401372174469800B6F728 /* DMSASRouter.m in Sources */,
+				EFBD7E532573676200B67527 /* UIColor+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

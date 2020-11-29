@@ -8,6 +8,8 @@
 
 #ifndef DMRouterHeader_h
 #define DMRouterHeader_h
+
 #import "DMBaseViewController.h"
+#import "RouterManager.h"
 
 #endif /* DMRouterHeader_h */

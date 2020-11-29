@@ -9,6 +9,12 @@
 #ifndef DMToolsMacros_h
 #define DMToolsMacros_h
 
+/// 路由处理回调
+typedef void(^RouterHandleCallBack)(id result);
+
+
+typedef NSDictionary<NSString*, id> DMRouterOptions;
+
 
     //单例化一个类
 #define SINGLETON_FOR_HEADER(className) \

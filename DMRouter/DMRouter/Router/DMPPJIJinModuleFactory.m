@@ -10,8 +10,7 @@
 NSString* const DMPPJIJinModule = @"DMPPJIJinModule";
 
 @implementation DMPPJIJinModuleFactory
-+ (DMBaseViewController*)viewControllerWithClass:(NSString *)className   WithOptions:(NSDictionary*)options
-{
++ (DMBaseViewController*)viewControllerWithClass:(NSString *)className withOptions:(NSDictionary*)options{
     Class viewControllerClass=NSClassFromString(className);
     DMBaseViewController *viewController = [[viewControllerClass alloc] init];
     if([viewController isKindOfClass:[DMBaseViewController class]] && viewController!=nil){

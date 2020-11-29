@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DMToolsMacros.h"
+
 
 @interface DMBaseViewController : UIViewController
 
-@property (nonatomic, assign)BOOL isError;
-@property (nonatomic, assign)BOOL isLoadError;
 @property (nonatomic, strong) NSDictionary *argDict;
+@property (nonatomic, copy) RouterHandleCallBack callBlock;
 
 - (void)backToVC;
 

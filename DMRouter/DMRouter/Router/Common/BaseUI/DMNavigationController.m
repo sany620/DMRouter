@@ -16,20 +16,17 @@
 @implementation DMNavigationController
 
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
     __weak DMNavigationController *weakSelf = self;
     self.delegate = weakSelf;
 }
 
 
-- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
-{
-   
-    if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)])
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]){
             self.interactivePopGestureRecognizer.enabled = NO;
-
+    }
     [super pushViewController:viewController animated:animated];
 }
 
@@ -37,8 +34,7 @@
 
 - (void)navigationController:(UINavigationController *)navigationController
        didShowViewController:(UIViewController *)viewController
-                    animated:(BOOL)animate
-{
+                    animated:(BOOL)animate{
     // Enable the gesture again once the new controller is shown
     if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]){
         if(self.viewControllers.count>1){

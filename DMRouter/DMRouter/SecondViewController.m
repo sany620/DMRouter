@@ -18,6 +18,9 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
     self.title = [self.argDict objectForKey:@"NavTitle"];
+    if (self.callBlock) {
+        self.callBlock(@"成功");
+    }
     // Do any additional setup after loading the view.
 }
 

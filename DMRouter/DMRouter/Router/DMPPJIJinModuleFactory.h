@@ -13,13 +13,9 @@ extern NSString* const DMPPJIJinModule;
 
 @interface DMPPJIJinModuleFactory : NSObject
 
-/**
- *  创建模块入口
- *   @param className  VC的name
- *  @param options 创建模块需要的参数
- *
- *  @return nil表示无法创建模块入口
- */
-+ (DMBaseViewController*)viewControllerWithClass:(NSString *)className WithOptions:(NSDictionary*)options;
+/// 创建模块入口 ，return nil表示无法创建模块入口
+/// @param className VC的name
+/// @param options 创建模块需要的参数
++ (DMBaseViewController*)viewControllerWithClass:(NSString *)className withOptions:(NSDictionary*)options;
 
 @end

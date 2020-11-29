@@ -21,7 +21,6 @@ typedef void(^ReloadViewBlock)(void);
 @implementation DMBaseViewController
 
 - (UIStatusBarAnimation)preferredStatusBarUpdateAnimation{
-    
     return UIStatusBarAnimationFade;
 }
 
@@ -30,16 +29,13 @@ typedef void(^ReloadViewBlock)(void);
 }
 
 - (void)viewWillAppear:(BOOL)animated{
-    
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:NO animated:YES];
     [self.navigationController.navigationBar setBackgroundImage:[UIImage createImageWithColor:[UIColor colorWithHexColorString:@"#FFFFF5"] size:CGSizeMake(1, 1)] forBarMetrics:UIBarMetricsDefault];
     [self.navigationController.navigationBar setShadowImage:[UIImage createImageWithColor:[UIColor whiteColor] size:CGSizeMake(1, 1)]];
-   
 }
 
 - (void)viewDidLoad{
-    
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.view.frame = [[UIScreen mainScreen] bounds];
@@ -50,7 +46,6 @@ typedef void(^ReloadViewBlock)(void);
 }
 
 - (void)backToVC{
-    
     [self.navigationController popViewControllerAnimated:YES];
 }
 
@@ -62,9 +57,5 @@ typedef void(^ReloadViewBlock)(void);
         [self.navigationController pushViewController:viewController animated:YES];
     }
 }
-
-
-
-
 
 @end
