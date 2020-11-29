@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DMRouter'
-  s.version          = '1.0.1'
+  s.version          = '1.1.0'
   s.summary          = 'iOS路由.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'duanmu' => 'ahwtquanqinyang@126.com' }
-  s.source           = { :git => 'https://github.com/sany620/DMRouter.git', :tag => '1.0.1' }
+  s.source           = { :git => 'https://github.com/sany620/DMRouter.git', :tag => '1.1.0' }
   # s.social_media_url = 'https://blog.csdn.net/quanqinyang'
 
   s.ios.deployment_target = '9.0'
