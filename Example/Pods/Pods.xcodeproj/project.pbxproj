@@ -18,24 +18,21 @@
 		3F9B3B8EB8E698FF8E9FB30049947245 /* DMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D826B396292D82170C41C741C22260 /* DMBaseViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4B92A1A4C50D6EA81A3FB78AFE801785 /* DMRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 415B1309CA470AB8C4D01EC62A2F1FFC /* DMRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		527675DDCA665FFA7DC7E1C52C53A6EA /* UIImage+XMUIImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A91EC62110D03572CD28AA3E0868C0 /* UIImage+XMUIImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5835A711E9C901BE1905842E67E17A1E /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 338D4B63302B171BC600C44207470B10 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5E35BE138973DDAFB1590049059EF36C /* DMRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7353181DB12374DA80C37535D19DC575 /* DMRouter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		78904670CA4C97DD45402748EE03A7C3 /* DMNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = DB46524A3FA10C21C6AA682DEAF0095A /* DMNavigationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8353ED7DC81B2E8A2E122052FF63090E /* NSObject+Cast.h in Headers */ = {isa = PBXBuildFile; fileRef = E14BA1DF228AF948E21E8C5556F903B1 /* NSObject+Cast.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8A42A3F5E6DE3C50DAAF628BAEF60135 /* RouterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B52B8F18F6E0201C8E99026C966C8D /* RouterManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8C9E21E857A3D2022BFEBBE9CB1B5514 /* DMPPJIJinModuleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E34062E3259D29CE1CD78299458DD81B /* DMPPJIJinModuleFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9CF400E02760DF89E5C68C09D332896F /* DMRouterHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1B56185C0C1336F6FE9992DE74FB52 /* DMRouterHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9D6E09F892DEFECF476F479648189826 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 339E93737AB1D1CF2B6B1EE663984028 /* UIView+Frame.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A0C0CA4307714B8F5F234FD789428986 /* UIButton+DuanMu.h in Headers */ = {isa = PBXBuildFile; fileRef = C383974C6F8959FA3F62C54D1FC413FB /* UIButton+DuanMu.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A70B655E92EAA9B6BAB87A3F3459FA0B /* UIColor+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = C84C367C95442D77114A68EDBE6B20D0 /* UIColor+Extend.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A8542BAC620B74353E39D2BD90F68EB3 /* YYCategoriesMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3C86E16014B3AFAA429C362DBFE16E /* YYCategoriesMacro.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BED108988472FDE04DF96DCBCB48D446 /* UIBarButtonItem+Items.h in Headers */ = {isa = PBXBuildFile; fileRef = E67F99D2323453E8AADA2114123A64C3 /* UIBarButtonItem+Items.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C26749DB99DB836B4CD100E531AE704B /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 168108D76250286C171FB5ABF0755DB4 /* UIColor+Extend.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		CB2285FCE509707775A9B74E521F18C1 /* UIImage+XMUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6142883E0A555E31E3921836AA499559 /* UIImage+XMUIImage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		CF5854B7E7E3234CA9E18AD257AFC9B9 /* DMBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ACB9877256B9E22062FF237A70A31A6 /* DMBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D40AC03DF94DBBA46BFF2E8ED7A98221 /* DMPPJIJinModuleFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4B2D0824CDA354A27A6A83E6C1D6BF /* DMPPJIJinModuleFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D73F62A25EA21F6C481EC458FDEDF3EC /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC460493F808E6C26491069A1B3B58B /* UIView+YYAdd.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F0C88275EA5EDBF2A7202BFDF9871688 /* UIView+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = B385FCA3D744F9874CE4D8D77010EAFE /* UIView+YYAdd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF249B07257400A2005D2B8C /* UIView+ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EF249B05257400A2005D2B8C /* UIView+ViewController.h */; };
+		EF249B08257400A2005D2B8C /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249B06257400A2005D2B8C /* UIView+ViewController.m */; };
 		F9C91EFD47DE1B4F5C3866FA8B2B3B13 /* DMRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD917701A659E9E9EBCD3B0587D17B4F /* DMRouter-dummy.m */; };
 		FA151BD7189DD84D0C1A01A2ECFD5466 /* RouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2973C11434BF7E37E9BB2714C5FF25 /* RouterManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
@@ -56,12 +53,9 @@
 		0A4B2D0824CDA354A27A6A83E6C1D6BF /* DMPPJIJinModuleFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMPPJIJinModuleFactory.h; path = DMRouter/Classes/DMPPJIJinModuleFactory.h; sourceTree = "<group>"; };
 		131102B2D59E7B6D81F426FD52A3ACBC /* NSObject+Cast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Cast.m"; path = "DMRouter/Classes/NSObject+Cast.m"; sourceTree = "<group>"; };
 		168108D76250286C171FB5ABF0755DB4 /* UIColor+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extend.m"; path = "DMRouter/Classes/Common/Category/UIColor+Extend.m"; sourceTree = "<group>"; };
-		1BC460493F808E6C26491069A1B3B58B /* UIView+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YYAdd.m"; path = "DMRouter/Classes/Common/Category/UIView+YYAdd.m"; sourceTree = "<group>"; };
-		2441E03BFD2FC7594801A44593A1B214 /* libPods-DMRouterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DMRouterDemo.a"; path = "libPods-DMRouterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2441E03BFD2FC7594801A44593A1B214 /* libPods-DMRouterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMRouterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACB9877256B9E22062FF237A70A31A6 /* DMBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMBaseViewController.h; path = DMRouter/Classes/Common/BaseUI/DMBaseViewController.h; sourceTree = "<group>"; };
 		2C85A16AE7E3424D8C4CB9C1CA558369 /* DMRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMRouter.release.xcconfig; sourceTree = "<group>"; };
-		338D4B63302B171BC600C44207470B10 /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "DMRouter/Classes/Common/Category/UIView+Frame.h"; sourceTree = "<group>"; };
-		339E93737AB1D1CF2B6B1EE663984028 /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "DMRouter/Classes/Common/Category/UIView+Frame.m"; sourceTree = "<group>"; };
 		3E785B516BF883B12A47B7B36073E850 /* DMRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMRouter-prefix.pch"; sourceTree = "<group>"; };
 		415B1309CA470AB8C4D01EC62A2F1FFC /* DMRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMRouter.h; path = DMRouter/Classes/DMRouter.h; sourceTree = "<group>"; };
 		48E288E19BC3CFECE9BB11843B467BA3 /* Pods-DMRouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMRouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,12 +69,10 @@
 		91A91EC62110D03572CD28AA3E0868C0 /* UIImage+XMUIImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+XMUIImage.h"; path = "DMRouter/Classes/Common/Category/UIImage+XMUIImage.h"; sourceTree = "<group>"; };
 		920BEABF37BF770E59ADB4A8991C3782 /* RouterResultState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RouterResultState.h; path = DMRouter/Classes/RouterResultState.h; sourceTree = "<group>"; };
 		9C1B56185C0C1336F6FE9992DE74FB52 /* DMRouterHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMRouterHeader.h; path = DMRouter/Classes/DMRouterHeader.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E3C86E16014B3AFAA429C362DBFE16E /* YYCategoriesMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCategoriesMacro.h; path = DMRouter/Classes/Common/Category/YYCategoriesMacro.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A671DD224366E50F56E2C14B7F8156ED /* UIBarButtonItem+Items.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Items.m"; path = "DMRouter/Classes/Common/Category/UIBarButtonItem+Items.m"; sourceTree = "<group>"; };
 		A6EDD33F1B025D86FBC732266C6166C8 /* DMRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMRouter.debug.xcconfig; sourceTree = "<group>"; };
-		B385FCA3D744F9874CE4D8D77010EAFE /* UIView+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YYAdd.h"; path = "DMRouter/Classes/Common/Category/UIView+YYAdd.h"; sourceTree = "<group>"; };
-		B38D561B87AC64167EC47EF87C5FDC34 /* libDMRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDMRouter.a; path = libDMRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38D561B87AC64167EC47EF87C5FDC34 /* libDMRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDMRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C383974C6F8959FA3F62C54D1FC413FB /* UIButton+DuanMu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+DuanMu.h"; path = "DMRouter/Classes/Common/Category/UIButton+DuanMu.h"; sourceTree = "<group>"; };
 		C84C367C95442D77114A68EDBE6B20D0 /* UIColor+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extend.h"; path = "DMRouter/Classes/Common/Category/UIColor+Extend.h"; sourceTree = "<group>"; };
 		CD917701A659E9E9EBCD3B0587D17B4F /* DMRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DMRouter-dummy.m"; sourceTree = "<group>"; };
@@ -88,6 +80,8 @@
 		E14BA1DF228AF948E21E8C5556F903B1 /* NSObject+Cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Cast.h"; path = "DMRouter/Classes/NSObject+Cast.h"; sourceTree = "<group>"; };
 		E34062E3259D29CE1CD78299458DD81B /* DMPPJIJinModuleFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMPPJIJinModuleFactory.m; path = DMRouter/Classes/DMPPJIJinModuleFactory.m; sourceTree = "<group>"; };
 		E67F99D2323453E8AADA2114123A64C3 /* UIBarButtonItem+Items.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+Items.h"; path = "DMRouter/Classes/Common/Category/UIBarButtonItem+Items.h"; sourceTree = "<group>"; };
+		EF249B05257400A2005D2B8C /* UIView+ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		EF249B06257400A2005D2B8C /* UIView+ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
 		EFD0FAEA9AC2E49A53452A234AEE3B45 /* UIButton+DuanMu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+DuanMu.m"; path = "DMRouter/Classes/Common/Category/UIButton+DuanMu.m"; sourceTree = "<group>"; };
 		F94C07D4C094257122C49AB6B59DBF41 /* Pods-DMRouterDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DMRouterDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F97B36AF7E8062791D0967875D1B35D6 /* Pods-DMRouterDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DMRouterDemo-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -139,14 +133,10 @@
 				168108D76250286C171FB5ABF0755DB4 /* UIColor+Extend.m */,
 				91A91EC62110D03572CD28AA3E0868C0 /* UIImage+XMUIImage.h */,
 				6142883E0A555E31E3921836AA499559 /* UIImage+XMUIImage.m */,
-				338D4B63302B171BC600C44207470B10 /* UIView+Frame.h */,
-				339E93737AB1D1CF2B6B1EE663984028 /* UIView+Frame.m */,
-				B385FCA3D744F9874CE4D8D77010EAFE /* UIView+YYAdd.h */,
-				1BC460493F808E6C26491069A1B3B58B /* UIView+YYAdd.m */,
-				9E3C86E16014B3AFAA429C362DBFE16E /* YYCategoriesMacro.h */,
+				EF249B05257400A2005D2B8C /* UIView+ViewController.h */,
+				EF249B06257400A2005D2B8C /* UIView+ViewController.m */,
 				A9EEDDA8E19E6AE67DEA181D782486C0 /* Support Files */,
 			);
-			name = DMRouter;
 			path = DMRouter;
 			sourceTree = "<group>";
 		};
@@ -236,6 +226,7 @@
 				78904670CA4C97DD45402748EE03A7C3 /* DMNavigationController.h in Headers */,
 				D40AC03DF94DBBA46BFF2E8ED7A98221 /* DMPPJIJinModuleFactory.h in Headers */,
 				4B92A1A4C50D6EA81A3FB78AFE801785 /* DMRouter.h in Headers */,
+				EF249B07257400A2005D2B8C /* UIView+ViewController.h in Headers */,
 				9CF400E02760DF89E5C68C09D332896F /* DMRouterHeader.h in Headers */,
 				103FA0659260BFC5694FA3A47D0DA371 /* DMSASRouter.h in Headers */,
 				8353ED7DC81B2E8A2E122052FF63090E /* NSObject+Cast.h in Headers */,
@@ -245,9 +236,6 @@
 				A0C0CA4307714B8F5F234FD789428986 /* UIButton+DuanMu.h in Headers */,
 				A70B655E92EAA9B6BAB87A3F3459FA0B /* UIColor+Extend.h in Headers */,
 				527675DDCA665FFA7DC7E1C52C53A6EA /* UIImage+XMUIImage.h in Headers */,
-				5835A711E9C901BE1905842E67E17A1E /* UIView+Frame.h in Headers */,
-				F0C88275EA5EDBF2A7202BFDF9871688 /* UIView+YYAdd.h in Headers */,
-				A8542BAC620B74353E39D2BD90F68EB3 /* YYCategoriesMacro.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +312,7 @@
 			files = (
 				3F9B3B8EB8E698FF8E9FB30049947245 /* DMBaseViewController.m in Sources */,
 				24378F6C22268561A1463947B2DA8744 /* DMNavigationController.m in Sources */,
+				EF249B08257400A2005D2B8C /* UIView+ViewController.m in Sources */,
 				8C9E21E857A3D2022BFEBBE9CB1B5514 /* DMPPJIJinModuleFactory.m in Sources */,
 				F9C91EFD47DE1B4F5C3866FA8B2B3B13 /* DMRouter-dummy.m in Sources */,
 				5E35BE138973DDAFB1590049059EF36C /* DMRouter.m in Sources */,
@@ -334,8 +323,6 @@
 				3CC3FA11034C0BBAC6EE2A543DCE1E0F /* UIButton+DuanMu.m in Sources */,
 				C26749DB99DB836B4CD100E531AE704B /* UIColor+Extend.m in Sources */,
 				CB2285FCE509707775A9B74E521F18C1 /* UIImage+XMUIImage.m in Sources */,
-				9D6E09F892DEFECF476F479648189826 /* UIView+Frame.m in Sources */,
-				D73F62A25EA21F6C481EC458FDEDF3EC /* UIView+YYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
