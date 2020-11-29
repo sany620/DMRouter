@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'duanmu' => 'ahwtquanqinyang@126.com' }
-  s.source           = { :git => 'https://github.com/sany620/DMRouter.git', :tag => '1.1.0' }
+  s.source           = { :git => 'https://github.com/sany620/DMRouter.git', :branch => 'master', :tag => "#{s.version}" }
   # s.social_media_url = 'https://blog.csdn.net/quanqinyang'
 
   s.ios.deployment_target = '9.0'
