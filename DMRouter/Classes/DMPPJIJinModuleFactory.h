@@ -9,7 +9,11 @@
 #import <Foundation/Foundation.h>
 #import "DMRouterHeader.h"
 
-extern NSString* const DMPPJIJinModule;
+
+extern NSString* _Nonnull const DMPPJIJinModule;
+
+
+NS_ASSUME_NONNULL_BEGIN
 
 @interface DMPPJIJinModuleFactory : NSObject
 
@@ -19,3 +23,5 @@ extern NSString* const DMPPJIJinModule;
 + (DMBaseViewController*)viewControllerWithClass:(NSString *)className withOptions:(NSDictionary*)options;
 
 @end
+
+NS_ASSUME_NONNULL_END

@@ -13,18 +13,18 @@
 @implementation RouterManager
 
 +(void)pushViewClassName:(NSString *)classname options:(DMRouterOptions*_Nullable)options{
-   [[DMSASRouter sharedDMSASRouter] openURL:DMModule1(DMPPJIJinModule)  className:classname options:options];
+   [[DMSASRouter manager] openURL:DMModule1(DMPPJIJinModule)  className:classname options:options];
 }
 +(void)pushViewClassName:(NSString *)classname options:(DMRouterOptions*_Nullable)options completion:(__nullable RouterHandleCallBack)completion{
-    [[DMSASRouter sharedDMSASRouter] openURL:DMModule1(DMPPJIJinModule) className:classname options:options completion:completion];
+    [[DMSASRouter manager] openURL:DMModule1(DMPPJIJinModule) className:classname options:options completion:completion];
 }
 
 +(void)presentViewClassName:(NSString *)classname options:(DMRouterOptions*_Nullable)options{
-    [[DMSASRouter sharedDMSASRouter] openURL:DMModule2(DMPPJIJinModule, DMRouterActionPresent) className:classname options:options];
+    [[DMSASRouter manager] openURL:DMModule2(DMPPJIJinModule, DMRouterActionPresent) className:classname options:options];
 }
 
 +(void)presentViewClassName:(NSString *)classname options:(DMRouterOptions*_Nullable)options completion:(__nullable RouterHandleCallBack)completion{
-    [[DMSASRouter sharedDMSASRouter] openURL:DMModule2(DMPPJIJinModule, DMRouterActionPresent) className:classname options:options completion:completion];
+    [[DMSASRouter manager] openURL:DMModule2(DMPPJIJinModule, DMRouterActionPresent) className:classname options:options completion:completion];
 }
 
 @end

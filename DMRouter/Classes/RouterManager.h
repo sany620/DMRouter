@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "DMRouter.h"
-#import "DMToolsMacros.h"
+#import "RouterResultState.h"
 
 
 NS_ASSUME_NONNULL_BEGIN

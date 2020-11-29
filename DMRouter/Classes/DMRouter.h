@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "DMRouterHeader.h"
-extern NSString* const DMRouterActionPush;
-extern NSString* const DMRouterActionPresent;
-extern NSString* const DMModuleScheme;
+extern NSString* _Nonnull const DMRouterActionPush;
+extern NSString* _Nonnull const DMRouterActionPresent;
+extern NSString* _Nonnull const DMModuleScheme;
 
 /**
  *   生成模块调用URL
@@ -21,6 +21,9 @@ extern NSString* const DMModuleScheme;
  */
 #define DMModule1(module)         ( [NSURL URLWithString:[NSString stringWithFormat:@"%@://%@/%@",DMModuleScheme,module,DMRouterActionPush]] )
 #define DMModule2(module, action)  ( [NSURL URLWithString:[NSString stringWithFormat:@"%@://%@/%@",DMModuleScheme,module,action]] )
+
+
+NS_ASSUME_NONNULL_BEGIN
 
 
 @interface DMRouter : NSObject
@@ -69,3 +72,5 @@ extern NSString* const DMModuleScheme;
 - (void)openURL:(NSURL*)url  className:(NSString *)classname options:(DMRouterOptions*)options completion:(__nullable RouterHandleCallBack)completion;
 
 @end
+
+NS_ASSUME_NONNULL_END

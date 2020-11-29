@@ -10,6 +10,7 @@
 #define DMRouterHeader_h
 
 #import "DMBaseViewController.h"
+#import "DMNavigationController.h"
 #import "RouterManager.h"
 
 #endif /* DMRouterHeader_h */

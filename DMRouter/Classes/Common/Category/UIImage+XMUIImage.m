@@ -467,48 +467,6 @@ void getOrinetationFixTransform(UIImage *image, CGAffineTransform *T)
 //******************* 2014.09.01 *****************************
 
 
-+(UIImage *)imageFromText:(NSArray*)arrContent withFont: (CGFloat)fontSize
-{
-    // set the font type and size
-    UIFont *font = [UIFont systemFontOfSize:fontSize];
-    NSMutableArray *arrHeight = [[NSMutableArray alloc] initWithCapacity:arrContent.count];
-    
-    CGFloat fHeight = 0.0f;
-    for (NSString *sContent in arrContent) {
-        CGSize stringSize = [sContent boundingRectWithSize:CGSizeMake(CONTENT_MAX_WIDTH, 10000) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:font} context:nil].size;
-        [arrHeight addObject:[NSNumber numberWithFloat:stringSize.height]];
-        
-        fHeight += stringSize.height;
-    }
-    
-    
-    CGSize newSize = CGSizeMake(CONTENT_MAX_WIDTH+20, fHeight+50);
-    
-    UIGraphicsBeginImageContextWithOptions(newSize,NO,0.0);
-    CGContextRef ctx = UIGraphicsGetCurrentContext();
-    CGContextSetCharacterSpacing(ctx, 10);
-    //  CGContextSetTextDrawingMode (ctx, kCGTextFillStroke);
-    CGContextSetRGBFillColor (ctx, 0.1, 0.2, 0.3, 1); // 6
-    CGContextSetRGBStrokeColor (ctx, 0, 0, 0, 1);
-    
-    int nIndex = 0;
-    CGFloat fPosY = 20.0f;
-    for (NSString *sContent in arrContent) {
-        NSNumber *numHeight = [arrHeight objectAtIndex:nIndex];
-        CGRect rect = CGRectMake(10, fPosY, CONTENT_MAX_WIDTH , [numHeight floatValue]);
-        
-        [sContent drawInRect:rect withFont:font lineBreakMode:NSLineBreakByWordWrapping alignment:NSTextAlignmentLeft];
-        
-        fPosY += [numHeight floatValue];
-        nIndex++;
-    }
-    // transfer image
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    return image;
-}
-
 - (UIImage*)getCentralImage:(CGSize)size{
     
     float w = 0;

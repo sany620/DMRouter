@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DMToolsMacros.h"
+#import "RouterResultState.h"
 
 
 @interface DMBaseViewController : UIViewController

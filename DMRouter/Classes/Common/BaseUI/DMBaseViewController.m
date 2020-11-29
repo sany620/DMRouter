@@ -10,7 +10,6 @@
 #import "UIImage+XMUIImage.h"
 #import "UIColor+Extend.h"
 #import "UIBarButtonItem+Items.h"
-#import "AppDelegate.h"
 
 
 typedef void(^ReloadViewBlock)(void);

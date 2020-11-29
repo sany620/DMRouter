@@ -52,7 +52,6 @@
 + (UIImage *)QRImage:(NSString *)URL sideLength:(CGFloat)length InsertImage:(UIImage *)insertImage;
 
 //生成二维码,自定义颜色
-+ (UIImage *)QRImage:(NSString *)string andSize:(CGFloat)size andColor:(UIColor *)color;
 
 + (UIImage *)QRImage:(NSString *)URL sideLength:(CGFloat)length InsertImage:(UIImage *)insertImage rect:(CGRect)insertRect;
 
@@ -63,8 +62,6 @@
 - (UIImage *)fixImage;
 
 - (UIImage *)maskWithImage:(const UIImage *)maskImage;
-
-+ (UIImage *)imageFromText:(NSArray*)arrContent withFont: (CGFloat)fontSize;
 
 + (UIImage *)xm_imageNamed:(NSString *)name inBundle:(NSBundle *)bundle;
 @end

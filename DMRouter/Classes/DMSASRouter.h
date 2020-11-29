@@ -7,13 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "DMToolsMacros.h"
 #import "DMRouter.h"
-#import "DMPPJIJinModuleFactory.h"
+
+NS_ASSUME_NONNULL_BEGIN
 
 @interface DMSASRouter : DMRouter
 
-
-SINGLETON_FOR_HEADER(DMSASRouter)
+/// 单例初始化
++ (instancetype)manager;
 
 @end
+
+NS_ASSUME_NONNULL_END

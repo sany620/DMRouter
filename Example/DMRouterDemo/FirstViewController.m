@@ -44,7 +44,7 @@
 }
 #pragma mark 按钮事件
 - (void)pushEvent:(id)sender {
-    [RouterManager pushViewClassName:@"SecondViewController" options:@{@"NavTitle":@"第二个页"} completion:^(id result) {
+    [RouterManager pushViewClassName:@"SecondViewController" options:@{@"NavTitle":@"第二页"} completion:^(id result) {
         
     }];
 }
