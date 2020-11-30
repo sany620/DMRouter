@@ -1,16 +1,16 @@
 PODS:
-  - DMRouter (1.0.0)
+  - DMRouter (1.1.1)
 
 DEPENDENCIES:
-  - DMRouter
+  - DMRouter (from `../`)
 
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - DMRouter
+EXTERNAL SOURCES:
+  DMRouter:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  DMRouter: 7f0c3deca6ddd4cdc75495772dd9f484e124c36d
+  DMRouter: 280192978144694aaac8e126060bdce7ca884246
 
-PODFILE CHECKSUM: 0bf09e8a1635a84b5a289b43b8e3f58114a7acd8
+PODFILE CHECKSUM: f89cf4277ebfef5464c107aefb604230b8f651ca
 
 COCOAPODS: 1.10.0
