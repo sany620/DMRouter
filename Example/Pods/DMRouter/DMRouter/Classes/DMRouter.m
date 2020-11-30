@@ -8,7 +8,7 @@
 
 #import "DMRouter.h"
 #import "NSObject+Cast.h"
-#import "UIView+YYAdd.h"
+#import "UIView+ViewController.h"
 #import "DMNavigationController.h"
 
 NSString* const DMRouterActionPush    = @"push";

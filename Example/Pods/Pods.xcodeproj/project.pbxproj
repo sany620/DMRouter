@@ -6,24 +6,39 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		3091CE4ED495A58952E76294FC40FC13 /* DMRouter */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = E96F18B748F63622602DED0C1C880CCA /* Build configuration list for PBXAggregateTarget "DMRouter" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = DMRouter;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
+		032BE184D066407435200BEB513A2EAD /* NSObject+Cast.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F5F78A0C49B085772E5E48D872856AA /* NSObject+Cast.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0BAC312AB1D8D814AFC48E92EB17786D /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1397ED780307527EF05E433B8A382281 /* UIView+ViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		116E158EFF9996733E728D096881E444 /* UIButton+DuanMu.h in Headers */ = {isa = PBXBuildFile; fileRef = 831A23F988DA310BC867AD6DAA84C611 /* UIButton+DuanMu.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12507CDE7932C2B7F224C7B5AF41EE29 /* DMNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46209DE3B048BCA895B07349B8AB0A28 /* DMNavigationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		154B3F296ED1BE579CE9AEC094B3B39D /* Pods-DMRouterDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7364BABD6E0BBA1474D89321603BDCCE /* Pods-DMRouterDemo-dummy.m */; };
+		2C64BAC949C9C5947E6AB40C020AD4A1 /* DMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844FA1C06A88DF24E43A949A1B1142E0 /* DMNavigationController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2C7671372E2B8301D5569C8C52429A6C /* UIImage+XMUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A672B6E113EA2EDDE34DDB94205E4411 /* UIImage+XMUIImage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		59666A2CE2A73C27210E016F88598ADD /* RouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 467DCFC4932D20236D0ED179F5A64528 /* RouterManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5C9A07521AF63014EFFB2C32BBB95C19 /* UIBarButtonItem+Items.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A06102B8F944BF5CF22F058F77CD82 /* UIBarButtonItem+Items.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5D13C690EDAE145306F8B4416331812C /* DMPPJIJinModuleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C51D33B719D0ADFB1E472FEC09ECF945 /* DMPPJIJinModuleFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5D7910540A68A6F6A9A13726F39E4C60 /* UIBarButtonItem+Items.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCCC84776DB484BF7096FD567F0F055 /* UIBarButtonItem+Items.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61865DA901C3D6D308A9FCEF8B4D3088 /* DMPPJIJinModuleFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = EB449511A9F57A86C765482B6C73FCDB /* DMPPJIJinModuleFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6CD24F942ED9E21F9FC0AE235739D980 /* UIImage+XMUIImage.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DEFD86BA4A396380C0612F22EB86E4 /* UIImage+XMUIImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F0995B6CB143475EA797EDB313F69EE /* RouterResultState.h in Headers */ = {isa = PBXBuildFile; fileRef = 9950788BB4A29C03F1EFBF1FAA3F894F /* RouterResultState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81B10C5298D5A9F0AAAE41C8C0129D48 /* DMSASRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D697F763C4DD61B7E13C4A658BD52C41 /* DMSASRouter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		85C6F7B7D0CE8558419B9C0DC8EA259B /* RouterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E6FBBB0E1B9C95CF599D2D2BB589D3 /* RouterManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88C6DF8D58330FC3C61D72B21B3C4050 /* DMRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453033CFB8042296DFF53094D6D4CD1 /* DMRouter-dummy.m */; };
+		95555593AAC17EAB60FC931EF9C1A8CD /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = F00ADD2078C501F38462BB17D4A41776 /* UIColor+Extend.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9598ECC6FDE077ACFF8F832028C15D83 /* NSObject+Cast.m in Sources */ = {isa = PBXBuildFile; fileRef = 644D1DEDD3FD71FA3479522E20439407 /* NSObject+Cast.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		97881DCC7D3A354EF929AE92E1285218 /* DMRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 811E808BBDC541322AAACDD5D884B76C /* DMRouter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AB61E3B25DB3410DDD6CE43878ACE252 /* UIButton+DuanMu.m in Sources */ = {isa = PBXBuildFile; fileRef = 948F1CDB88AC58B5D7C7F55C4086DCEF /* UIButton+DuanMu.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BE339D4D3B6F13DD994154140AC8B28D /* UIColor+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = F636F2DF55D9E6A3FEA6E8C40767D835 /* UIColor+Extend.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C773201E0BBAD4A2DB876823B51BEDBF /* DMRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 58EEE8FA89B2448E0B44D5BC6B783273 /* DMRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DCB649CBCC74C42A624225057D95736E /* UIView+ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C7998C87CDE83BC25D9781BB0AA119 /* UIView+ViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0072543AA07F1A66ABA6756C28B4CA9 /* DMBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E0BAB8B3BBA1312189CCD2F2B887ABA4 /* DMBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7138BA21E9435AA1E43A50C61AB97B3 /* DMRouterHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC6AAE05651EC56B51D6DD140E3AC10 /* DMRouterHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F9F4B4915C0CB6D5A49B5251CC6CDCE3 /* DMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FA6A322832BCE9FDD62F2BCA6B53D /* DMBaseViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FD673EA5E53D0C26144D2AA013CAE4DA /* DMSASRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4AEC177689DA16252DCFDA09548CDA /* DMSASRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		04FF28A0EAAD49925D0C2870A57BF79A /* PBXContainerItemProxy */ = {
+		841E8449BE4A281955A5275F07E113E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -33,21 +48,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1614A7F046B7634E057FE87C52C23FDB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0DC6AAE05651EC56B51D6DD140E3AC10 /* DMRouterHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMRouterHeader.h; path = DMRouter/Classes/DMRouterHeader.h; sourceTree = "<group>"; };
+		1397ED780307527EF05E433B8A382281 /* UIView+ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ViewController.m"; path = "DMRouter/Classes/Common/Category/UIView+ViewController.m"; sourceTree = "<group>"; };
 		2441E03BFD2FC7594801A44593A1B214 /* libPods-DMRouterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DMRouterDemo.a"; path = "libPods-DMRouterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		260BBA4798963BDA626AB817316E094F /* DMRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMRouter.release.xcconfig; sourceTree = "<group>"; };
+		3453033CFB8042296DFF53094D6D4CD1 /* DMRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DMRouter-dummy.m"; sourceTree = "<group>"; };
+		46209DE3B048BCA895B07349B8AB0A28 /* DMNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMNavigationController.h; path = DMRouter/Classes/Common/BaseUI/DMNavigationController.h; sourceTree = "<group>"; };
+		467DCFC4932D20236D0ED179F5A64528 /* RouterManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RouterManager.m; path = DMRouter/Classes/RouterManager.m; sourceTree = "<group>"; };
 		48E288E19BC3CFECE9BB11843B467BA3 /* Pods-DMRouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMRouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		57E6FBBB0E1B9C95CF599D2D2BB589D3 /* RouterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RouterManager.h; path = DMRouter/Classes/RouterManager.h; sourceTree = "<group>"; };
+		58EEE8FA89B2448E0B44D5BC6B783273 /* DMRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMRouter.h; path = DMRouter/Classes/DMRouter.h; sourceTree = "<group>"; };
+		644D1DEDD3FD71FA3479522E20439407 /* NSObject+Cast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Cast.m"; path = "DMRouter/Classes/NSObject+Cast.m"; sourceTree = "<group>"; };
+		6A6E14E0EAE442D8862FD04005B2309C /* DMRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMRouter.debug.xcconfig; sourceTree = "<group>"; };
 		6E7C5CF5110FD46A2C3DE0C88483FE7C /* Pods-DMRouterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMRouterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7364BABD6E0BBA1474D89321603BDCCE /* Pods-DMRouterDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DMRouterDemo-dummy.m"; sourceTree = "<group>"; };
-		8B7ECDF1DF4EBF968D52036305B74AA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7FCCC84776DB484BF7096FD567F0F055 /* UIBarButtonItem+Items.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+Items.h"; path = "DMRouter/Classes/Common/Category/UIBarButtonItem+Items.h"; sourceTree = "<group>"; };
+		811E808BBDC541322AAACDD5D884B76C /* DMRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMRouter.m; path = DMRouter/Classes/DMRouter.m; sourceTree = "<group>"; };
+		831A23F988DA310BC867AD6DAA84C611 /* UIButton+DuanMu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+DuanMu.h"; path = "DMRouter/Classes/Common/Category/UIButton+DuanMu.h"; sourceTree = "<group>"; };
+		844FA1C06A88DF24E43A949A1B1142E0 /* DMNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMNavigationController.m; path = DMRouter/Classes/Common/BaseUI/DMNavigationController.m; sourceTree = "<group>"; };
+		8D4AEC177689DA16252DCFDA09548CDA /* DMSASRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMSASRouter.h; path = DMRouter/Classes/DMSASRouter.h; sourceTree = "<group>"; };
+		902FA6A322832BCE9FDD62F2BCA6B53D /* DMBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMBaseViewController.m; path = DMRouter/Classes/Common/BaseUI/DMBaseViewController.m; sourceTree = "<group>"; };
+		948F1CDB88AC58B5D7C7F55C4086DCEF /* UIButton+DuanMu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+DuanMu.m"; path = "DMRouter/Classes/Common/Category/UIButton+DuanMu.m"; sourceTree = "<group>"; };
+		9950788BB4A29C03F1EFBF1FAA3F894F /* RouterResultState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RouterResultState.h; path = DMRouter/Classes/RouterResultState.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ACBC4A29697D32FDA65016EC9C771C32 /* DMRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMRouter.debug.xcconfig; sourceTree = "<group>"; };
-		BB61B58EA12606C6545043906AE5BC61 /* DMRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DMRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DEB17DAA9C42FC785F60891BC4424658 /* DMRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DMRouter.release.xcconfig; sourceTree = "<group>"; };
+		9F5F78A0C49B085772E5E48D872856AA /* NSObject+Cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Cast.h"; path = "DMRouter/Classes/NSObject+Cast.h"; sourceTree = "<group>"; };
+		A672B6E113EA2EDDE34DDB94205E4411 /* UIImage+XMUIImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XMUIImage.m"; path = "DMRouter/Classes/Common/Category/UIImage+XMUIImage.m"; sourceTree = "<group>"; };
+		B38D561B87AC64167EC47EF87C5FDC34 /* libDMRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDMRouter.a; path = libDMRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6DEFD86BA4A396380C0612F22EB86E4 /* UIImage+XMUIImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+XMUIImage.h"; path = "DMRouter/Classes/Common/Category/UIImage+XMUIImage.h"; sourceTree = "<group>"; };
+		C51D33B719D0ADFB1E472FEC09ECF945 /* DMPPJIJinModuleFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMPPJIJinModuleFactory.m; path = DMRouter/Classes/DMPPJIJinModuleFactory.m; sourceTree = "<group>"; };
+		D41A88EEEE468808342EF604810F26AE /* DMRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DMRouter-prefix.pch"; sourceTree = "<group>"; };
+		D697F763C4DD61B7E13C4A658BD52C41 /* DMSASRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMSASRouter.m; path = DMRouter/Classes/DMSASRouter.m; sourceTree = "<group>"; };
+		D8C7998C87CDE83BC25D9781BB0AA119 /* UIView+ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ViewController.h"; path = "DMRouter/Classes/Common/Category/UIView+ViewController.h"; sourceTree = "<group>"; };
+		E0BAB8B3BBA1312189CCD2F2B887ABA4 /* DMBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMBaseViewController.h; path = DMRouter/Classes/Common/BaseUI/DMBaseViewController.h; sourceTree = "<group>"; };
+		EB449511A9F57A86C765482B6C73FCDB /* DMPPJIJinModuleFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMPPJIJinModuleFactory.h; path = DMRouter/Classes/DMPPJIJinModuleFactory.h; sourceTree = "<group>"; };
+		F00ADD2078C501F38462BB17D4A41776 /* UIColor+Extend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extend.m"; path = "DMRouter/Classes/Common/Category/UIColor+Extend.m"; sourceTree = "<group>"; };
+		F5A06102B8F944BF5CF22F058F77CD82 /* UIBarButtonItem+Items.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Items.m"; path = "DMRouter/Classes/Common/Category/UIBarButtonItem+Items.m"; sourceTree = "<group>"; };
+		F636F2DF55D9E6A3FEA6E8C40767D835 /* UIColor+Extend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extend.h"; path = "DMRouter/Classes/Common/Category/UIColor+Extend.h"; sourceTree = "<group>"; };
 		F94C07D4C094257122C49AB6B59DBF41 /* Pods-DMRouterDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DMRouterDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F97B36AF7E8062791D0967875D1B35D6 /* Pods-DMRouterDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DMRouterDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5FD07FBF3C422E0C32C2A0F932E48C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		798C13634BFD7783B0DF4378E71E7B01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,40 +106,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5D8D5279ED95D16C9B98CF5C4263E2BC /* Support Files */ = {
+		6A05C159B9F2636C0E2FBA2633209FCC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ACBC4A29697D32FDA65016EC9C771C32 /* DMRouter.debug.xcconfig */,
-				DEB17DAA9C42FC785F60891BC4424658 /* DMRouter.release.xcconfig */,
+				3453033CFB8042296DFF53094D6D4CD1 /* DMRouter-dummy.m */,
+				D41A88EEEE468808342EF604810F26AE /* DMRouter-prefix.pch */,
+				6A6E14E0EAE442D8862FD04005B2309C /* DMRouter.debug.xcconfig */,
+				260BBA4798963BDA626AB817316E094F /* DMRouter.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DMRouter";
-			sourceTree = "<group>";
-		};
-		66FD04FA41DF2D8FE2319D61DD6CD29B /* DMRouter */ = {
-			isa = PBXGroup;
-			children = (
-				E6E15C2182B6F976BB2F6EE0B1058712 /* Pod */,
-				5D8D5279ED95D16C9B98CF5C4263E2BC /* Support Files */,
-			);
-			name = DMRouter;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		8BEA49BE13ECC89E3D032A4A7DF4B26E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				66FD04FA41DF2D8FE2319D61DD6CD29B /* DMRouter */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9F4CE5C3CC6A7F231242FA45A844EA24 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2441E03BFD2FC7594801A44593A1B214 /* libPods-DMRouterDemo.a */,
-			);
-			name = Products;
+			path = "../Target Support Files/DMRouter";
 			sourceTree = "<group>";
 		};
 		C6BB7A9A5271FB30D7242841DD22AD6F /* Pods-DMRouterDemo */ = {
@@ -111,11 +135,20 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8BEA49BE13ECC89E3D032A4A7DF4B26E /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				9F4CE5C3CC6A7F231242FA45A844EA24 /* Products */,
+				EB8C820C435AE33883360D3E96DCAEEB /* Pods */,
+				D0A1B1B75C5BFB217C46EB438CFDD366 /* Products */,
 				F592BCB9A43F740DFE96CF2147C7BC87 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D0A1B1B75C5BFB217C46EB438CFDD366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B38D561B87AC64167EC47EF87C5FDC34 /* libDMRouter.a */,
+				2441E03BFD2FC7594801A44593A1B214 /* libPods-DMRouterDemo.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -125,14 +158,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E6E15C2182B6F976BB2F6EE0B1058712 /* Pod */ = {
+		EB8C820C435AE33883360D3E96DCAEEB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BB61B58EA12606C6545043906AE5BC61 /* DMRouter.podspec */,
-				1614A7F046B7634E057FE87C52C23FDB /* LICENSE */,
-				8B7ECDF1DF4EBF968D52036305B74AA4 /* README.md */,
+				ECADFE3168A79D5329F01895C4D0CD39 /* DMRouter */,
 			);
-			name = Pod;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECADFE3168A79D5329F01895C4D0CD39 /* DMRouter */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAB8B3BBA1312189CCD2F2B887ABA4 /* DMBaseViewController.h */,
+				902FA6A322832BCE9FDD62F2BCA6B53D /* DMBaseViewController.m */,
+				46209DE3B048BCA895B07349B8AB0A28 /* DMNavigationController.h */,
+				844FA1C06A88DF24E43A949A1B1142E0 /* DMNavigationController.m */,
+				EB449511A9F57A86C765482B6C73FCDB /* DMPPJIJinModuleFactory.h */,
+				C51D33B719D0ADFB1E472FEC09ECF945 /* DMPPJIJinModuleFactory.m */,
+				58EEE8FA89B2448E0B44D5BC6B783273 /* DMRouter.h */,
+				811E808BBDC541322AAACDD5D884B76C /* DMRouter.m */,
+				0DC6AAE05651EC56B51D6DD140E3AC10 /* DMRouterHeader.h */,
+				8D4AEC177689DA16252DCFDA09548CDA /* DMSASRouter.h */,
+				D697F763C4DD61B7E13C4A658BD52C41 /* DMSASRouter.m */,
+				9F5F78A0C49B085772E5E48D872856AA /* NSObject+Cast.h */,
+				644D1DEDD3FD71FA3479522E20439407 /* NSObject+Cast.m */,
+				57E6FBBB0E1B9C95CF599D2D2BB589D3 /* RouterManager.h */,
+				467DCFC4932D20236D0ED179F5A64528 /* RouterManager.m */,
+				9950788BB4A29C03F1EFBF1FAA3F894F /* RouterResultState.h */,
+				7FCCC84776DB484BF7096FD567F0F055 /* UIBarButtonItem+Items.h */,
+				F5A06102B8F944BF5CF22F058F77CD82 /* UIBarButtonItem+Items.m */,
+				831A23F988DA310BC867AD6DAA84C611 /* UIButton+DuanMu.h */,
+				948F1CDB88AC58B5D7C7F55C4086DCEF /* UIButton+DuanMu.m */,
+				F636F2DF55D9E6A3FEA6E8C40767D835 /* UIColor+Extend.h */,
+				F00ADD2078C501F38462BB17D4A41776 /* UIColor+Extend.m */,
+				B6DEFD86BA4A396380C0612F22EB86E4 /* UIImage+XMUIImage.h */,
+				A672B6E113EA2EDDE34DDB94205E4411 /* UIImage+XMUIImage.m */,
+				D8C7998C87CDE83BC25D9781BB0AA119 /* UIView+ViewController.h */,
+				1397ED780307527EF05E433B8A382281 /* UIView+ViewController.m */,
+				6A05C159B9F2636C0E2FBA2633209FCC /* Support Files */,
+			);
+			name = DMRouter;
+			path = DMRouter;
 			sourceTree = "<group>";
 		};
 		F592BCB9A43F740DFE96CF2147C7BC87 /* Targets Support Files */ = {
@@ -146,6 +212,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		870661B440DF7739A4C768FA2EE444F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0072543AA07F1A66ABA6756C28B4CA9 /* DMBaseViewController.h in Headers */,
+				12507CDE7932C2B7F224C7B5AF41EE29 /* DMNavigationController.h in Headers */,
+				61865DA901C3D6D308A9FCEF8B4D3088 /* DMPPJIJinModuleFactory.h in Headers */,
+				C773201E0BBAD4A2DB876823B51BEDBF /* DMRouter.h in Headers */,
+				F7138BA21E9435AA1E43A50C61AB97B3 /* DMRouterHeader.h in Headers */,
+				FD673EA5E53D0C26144D2AA013CAE4DA /* DMSASRouter.h in Headers */,
+				032BE184D066407435200BEB513A2EAD /* NSObject+Cast.h in Headers */,
+				85C6F7B7D0CE8558419B9C0DC8EA259B /* RouterManager.h in Headers */,
+				6F0995B6CB143475EA797EDB313F69EE /* RouterResultState.h in Headers */,
+				5D7910540A68A6F6A9A13726F39E4C60 /* UIBarButtonItem+Items.h in Headers */,
+				116E158EFF9996733E728D096881E444 /* UIButton+DuanMu.h in Headers */,
+				BE339D4D3B6F13DD994154140AC8B28D /* UIColor+Extend.h in Headers */,
+				6CD24F942ED9E21F9FC0AE235739D980 /* UIImage+XMUIImage.h in Headers */,
+				DCB649CBCC74C42A624225057D95736E /* UIView+ViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AF5C7A3621642D2DE7B053A53CAF8964 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -156,6 +243,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3091CE4ED495A58952E76294FC40FC13 /* DMRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CE7A7EA563A751C59C796FE3689786 /* Build configuration list for PBXNativeTarget "DMRouter" */;
+			buildPhases = (
+				870661B440DF7739A4C768FA2EE444F8 /* Headers */,
+				19E3054D3FB163CFE75940E14D72F747 /* Sources */,
+				5FD07FBF3C422E0C32C2A0F932E48C90 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMRouter;
+			productName = DMRouter;
+			productReference = B38D561B87AC64167EC47EF87C5FDC34 /* libDMRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		7013747A06462D897CDD4B9D22DECAD9 /* Pods-DMRouterDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 249903C58214F63A99F4E5668B024FA0 /* Build configuration list for PBXNativeTarget "Pods-DMRouterDemo" */;
@@ -167,7 +271,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B459704B62A0B800B89D18CCA7C0D1B2 /* PBXTargetDependency */,
+				6F18571AF545955000CDE1FB674CF23D /* PBXTargetDependency */,
 			);
 			name = "Pods-DMRouterDemo";
 			productName = "Pods-DMRouterDemo";
@@ -192,7 +296,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9F4CE5C3CC6A7F231242FA45A844EA24 /* Products */;
+			productRefGroup = D0A1B1B75C5BFB217C46EB438CFDD366 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -203,6 +307,26 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		19E3054D3FB163CFE75940E14D72F747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F4B4915C0CB6D5A49B5251CC6CDCE3 /* DMBaseViewController.m in Sources */,
+				2C64BAC949C9C5947E6AB40C020AD4A1 /* DMNavigationController.m in Sources */,
+				5D13C690EDAE145306F8B4416331812C /* DMPPJIJinModuleFactory.m in Sources */,
+				88C6DF8D58330FC3C61D72B21B3C4050 /* DMRouter-dummy.m in Sources */,
+				97881DCC7D3A354EF929AE92E1285218 /* DMRouter.m in Sources */,
+				81B10C5298D5A9F0AAAE41C8C0129D48 /* DMSASRouter.m in Sources */,
+				9598ECC6FDE077ACFF8F832028C15D83 /* NSObject+Cast.m in Sources */,
+				59666A2CE2A73C27210E016F88598ADD /* RouterManager.m in Sources */,
+				5C9A07521AF63014EFFB2C32BBB95C19 /* UIBarButtonItem+Items.m in Sources */,
+				AB61E3B25DB3410DDD6CE43878ACE252 /* UIButton+DuanMu.m in Sources */,
+				95555593AAC17EAB60FC931EF9C1A8CD /* UIColor+Extend.m in Sources */,
+				2C7671372E2B8301D5569C8C52429A6C /* UIImage+XMUIImage.m in Sources */,
+				0BAC312AB1D8D814AFC48E92EB17786D /* UIView+ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44581B504E645D507226BA3C460984DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,11 +338,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B459704B62A0B800B89D18CCA7C0D1B2 /* PBXTargetDependency */ = {
+		6F18571AF545955000CDE1FB674CF23D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DMRouter;
 			target = 3091CE4ED495A58952E76294FC40FC13 /* DMRouter */;
-			targetProxy = 04FF28A0EAAD49925D0C2870A57BF79A /* PBXContainerItemProxy */;
+			targetProxy = 841E8449BE4A281955A5275F07E113E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -289,6 +413,29 @@
 			};
 			name = Debug;
 		};
+		279D2FFFA1B5486208CF9277E410AEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260BBA4798963BDA626AB817316E094F /* DMRouter.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DMRouter/DMRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DMRouter;
+				PRODUCT_NAME = DMRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		42964DC724953D2A600C345D7C257160 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E7C5CF5110FD46A2C3DE0C88483FE7C /* Pods-DMRouterDemo.release.xcconfig */;
@@ -310,22 +457,6 @@
 			};
 			name = Release;
 		};
-		9A2ABC66599F0246C25C2ED28904919D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACBC4A29697D32FDA65016EC9C771C32 /* DMRouter.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		A623E93A52014F77BAC72422A36ADBA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48E288E19BC3CFECE9BB11843B467BA3 /* Pods-DMRouterDemo.debug.xcconfig */;
@@ -346,22 +477,27 @@
 			};
 			name = Debug;
 		};
-		ABBE25FA8249DFB8C4F80A21CBCEC1E3 /* Release */ = {
+		B110BA31381D98DB209709BC01B1208B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEB17DAA9C42FC785F60891BC4424658 /* DMRouter.release.xcconfig */;
+			baseConfigurationReference = 6A6E14E0EAE442D8862FD04005B2309C /* DMRouter.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DMRouter/DMRouter-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DMRouter;
+				PRODUCT_NAME = DMRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -446,11 +582,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E96F18B748F63622602DED0C1C880CCA /* Build configuration list for PBXAggregateTarget "DMRouter" */ = {
+		49CE7A7EA563A751C59C796FE3689786 /* Build configuration list for PBXNativeTarget "DMRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A2ABC66599F0246C25C2ED28904919D /* Debug */,
-				ABBE25FA8249DFB8C4F80A21CBCEC1E3 /* Release */,
+				B110BA31381D98DB209709BC01B1208B /* Debug */,
+				279D2FFFA1B5486208CF9277E410AEF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
